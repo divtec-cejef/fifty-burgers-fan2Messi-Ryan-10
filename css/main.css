@@ -1,4 +1,28 @@
 h1{
     text-align: center;
-    color: gold;
+    color: #FDC032;
+}
+header{
+    background-color: black;
+
+}
+class.BonBurger{
+    position: center;
+    max-width: 160px; }
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;}
+body {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: black;
+    background-color: white;
+}
+main{
+    max-width: 100%;
+    height: auto;
+    width: 250px;
 }
