@@ -5,6 +5,12 @@ h1{
 header{
     background-color: black;
 }
+.intro{
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
 .BonBurger{
     max-height: 160px;
     margin-left: 600px;
@@ -22,19 +28,34 @@ body {
     color: black;
     background-color: white;
 }
-/*main{
-    max-width: 100%;
-    height: auto;
-    width: 250px;
-    text-align: center;*/
 main {
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
 }
-.Ingredient1{
-    border-radius:10px;
-    border-color: #FDC032;
+.Ingredient1 {
+    max-width: 95%;
+    margin: 40px auto;
+    padding: 0;
+    list-style-type: none;
+}
+.Ingredient1 li {
+    color: white;
+    padding: 10px 40px;
+    background-color: #E8A062;
+}
+.Ingredient1 li:nth-child(even) {
+    border-top: 5px solid #FDC032;
+    background-color: #823922;
+    border-bottom: 10px solid #00A24B;
+}
+.Ingredient1 li:first-child {
+    border-radius: 30px 30px 0 0;
+}
+.Ingredient1 li:last-child {
+    background-color: #E8A062;
+    border-radius: 0 0 30px 30px;
+    border: none;
 }
 footer {
     background-color: #823922;
