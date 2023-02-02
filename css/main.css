@@ -4,6 +4,7 @@ h1{
 }
 header{
     background-color: black;
+    display: block;
 }
 .intro{
     font-size: 1.3rem;
@@ -12,6 +13,7 @@ header{
 }
 
 .BonBurger{
+    padding: 15px;
     max-height: 160px;
     margin-left: 600px;
     margin-right: 600px;
@@ -56,6 +58,33 @@ main {
     background-color: #E8A062;
     border-radius: 0 0 30px 30px;
     border: none;
+}
+.Ingredient2 {
+    max-width: 95%;
+    margin: 40px auto;
+    padding: 0;
+    list-style-type: none;
+}
+.Ingredient2 li {
+    color: white;
+    padding: 10px 40px;
+    background-color: #E8A062;
+}
+.Ingredient2 li:nth-child(even) {
+    border-top: 5px solid #FDC032;
+    background-color: #823922;
+    border-bottom: 10px solid #00A24B;
+}
+.Ingredient2 li:first-child {
+    border-radius: 30px 30px 0 0;
+}
+.Ingredient2 li:last-child {
+    background-color: #E8A062;
+    border-radius: 0 0 30px 30px;
+    border: none;
+}
+main{
+text-decoration: none;
 }
 footer {
     background-color: #823922;
